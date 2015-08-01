@@ -1,0 +1,105 @@
+	@import url('//fonts.googleapis.com/css?family=Open+Sans:700,300');
+	
+	@font-face {
+		font-family: 'gearedslab-bold-webfont';
+		src: url('https://d3uf2ssic990td.cloudfront.net/client/ripleysorlando/odditorium/fonts/gearedslab-bold-webfont/gearedslab-bold-webfont.eot');
+		src: url('https://d3uf2ssic990td.cloudfront.net/client/ripleysorlando/odditorium/fonts/gearedslab-bold-webfont/gearedslab-bold-webfont.eot?#iefix') format('embedded-opentype'), url('https://d3uf2ssic990td.cloudfront.net/client/ripleysorlando/odditorium/fonts/gearedslab-bold-webfont/gearedslab-bold-webfont.woff') format('woff'), url('https://d3uf2ssic990td.cloudfront.net/client/ripleysorlando/odditorium/fonts/gearedslab-bold-webfont/gearedslab-bold-webfont.ttf') format('truetype'), url('https://d3uf2ssic990td.cloudfront.net/client/ripleysorlando/odditorium/fonts/gearedslab-bold-webfont/gearedslab-bold-webfont.svg#ywftsvg') format('svg');
+		font-weight: bold;
+		font-style: normal
+	}
+	
+	
+	@font-face {
+		font-family: 'gearedslab-light-webfont';
+		src: url('https://d3uf2ssic990td.cloudfront.net/client/ripleysorlando/odditorium/fonts/gearedslab-light-webfont/gearedslab-light-webfont.eot');
+		src: url('https://d3uf2ssic990td.cloudfront.net/client/ripleysorlando/odditorium/fonts/gearedslab-light-webfont/gearedslab-light-webfont.eot?#iefix') format('embedded-opentype'), url('https://d3uf2ssic990td.cloudfront.net/client/ripleysorlando/odditorium/fonts/gearedslab-light-webfont/gearedslab-light-webfont.woff') format('woff'), url('https://d3uf2ssic990td.cloudfront.net/client/ripleysorlando/odditorium/fonts/gearedslab-light-webfont/gearedslab-light-webfont.ttf') format('truetype'), url('https://d3uf2ssic990td.cloudfront.net/client/ripleysorlando/odditorium/fonts/gearedslab-light-webfont/gearedslab-light-webfont.svg#ywftsvg') format('svg');
+		font-weight: normal;
+		font-style: normal
+	}
+	
+	
+	@font-face {
+		font-family: 'hold_fast_foundry_-_gin-webfont';
+		src: url('https://d3uf2ssic990td.cloudfront.net/client/ripleysorlando/odditorium/fonts/hold_fast_foundry_-_gin-webfont/hold_fast_foundry_-_gin-webfont.eot');
+		src: url('https://d3uf2ssic990td.cloudfront.net/client/ripleysorlando/odditorium/fonts/hold_fast_foundry_-_gin-webfont/hold_fast_foundry_-_gin-webfont.eot?#iefix') format('embedded-opentype'), url('https://d3uf2ssic990td.cloudfront.net/client/ripleysorlando/odditorium/fonts/hold_fast_foundry_-_gin-webfont/hold_fast_foundry_-_gin-webfont.woff') format('woff'), url('https://d3uf2ssic990td.cloudfront.net/client/ripleysorlando/odditorium/fonts/hold_fast_foundry_-_gin-webfont/hold_fast_foundry_-_gin-webfont.ttf') format('truetype'), url('https://d3uf2ssic990td.cloudfront.net/client/ripleysorlando/odditorium/fonts/hold_fast_foundry_-_gin-webfont/hold_fast_foundry_-_gin-webfont.svg#ywftsvg') format('svg');
+		font-weight: normal;
+		font-style: normal
+	}
+	
+	
+	body {
+		background-image: url("https://www.ripleys.com/orlando/wp-content/uploads/sites/4/2014/04/bg-lines.jpg");
+		margin: 0 8px 0 0;
+		padding: 48px 5px 0 27px;
+		color: white;
+	}
+	
+	iframe {
+		border: none;
+		overflow-y: auto;
+	}
+	
+	header {
+		height: 350px;
+	}
+	
+	h2 {
+		font-size: 36px;
+		font-weight: bold;
+		font-family: 'gearedslab-bold-webfont', arial, sans-serif;
+		margin-top: 0;
+    margin-bottom: 7px;
+    text-transform: uppercase; 
+    text-align: center;
+	}
+	
+	h3{
+		font-size: 24px;
+		font-weight: bold;
+		font-family: 'gearedslab-bold-webfont', arial, sans-serif;
+		margin-top: 0;
+    margin-bottom: 7px;
+  	
+	}
+	
+	h2.bottomborder {
+    margin-top: 8px;
+    margin-bottom: 6px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.45);
+    margin-left: 11px;
+  }
+  
+  .noScrolls{
+
+    
+  }
+	
+	.one-half {
+		width: 48.99%;
+		display: inline-block;
+		padding-left: 8px;
+	}
+	
+	#bottom-banner img {
+    overflow: hidden;
+		max-width: 1033px;
+
+	}
+	
+	.two-cols {
+		display: flex;
+		max-width: 1019px;
+	}
+	
+	.container {
+	    overflow: hidden;
+	    width: 100%;
+	}
+	.clear{
+  	display: block;
+    overflow: auto;
+    zoom: 1;
+	}
+  iframe::-webkit-scrollbar {  
+    display: none;
+  }  
